@@ -1,0 +1,54 @@
+@media only screen and(max-width:320px)
+{
+.navbar{
+    font-size: 10px;
+    margin-left: 10px;
+    gap: 30px;
+}
+.logo {
+    margin-left: 30px;
+}
+.search-bar{
+    display: flex;
+    gap: 20px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px wheat solid;
+    border-radius: 15px;
+}
+.cart-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+.bike {
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+    background-color: #F5DDC4;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+}
+.right-header h1 {
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 96px;
+}
+.right-header p {
+    font-weight: 500;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.left-header{
+    display: grid;
+    grid-template-columns: auto;
+}
+.header{
+    display: flex;
+   flex-direction: column;
+    gap: 0px;
+    size: 100vh;
+}
+}
