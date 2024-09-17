@@ -16,22 +16,18 @@ function SEEMOREPRODUCT(){
  console.log(olddiv);
 }
 
-   /*function SEELESS() {
-      const olddiv = document.getElementById("card");
-      const cardsDiv = olddiv.querySelectorAll(".cards");
-    
-      // Add a new class to hide the images
-      cardsDiv.forEach(div => {
-        div.classList.add("hidden");
-      });
-    }*/
-      /*function SEELESS() {
-         const olddiv = document.getElementById("card");
-         const cardsDiv = olddiv.querySelectorAll(".cards");
-       
-         // Remove the divs with the "cards" class
-         cardsDiv.forEach(div => {
-           div.remove();
-         });
-       }*/
+function SEELESS(){
+  const less=document.getElementById("card");
+  less.style.display="none";
+ console.log(less);
+}
       
+      
+function SUBSCRIPTION(){
+  event.preventDefault();
+  const subscriptiondiv=document.getElementById("subscription-complete");
+  const successfuldiv=document.createElement("div");
+  successfuldiv.innerHTML=`<h3>SUBSCRIPTION SUCCESSFUL !<br>THANK YOU😊</h3>`;
+  subscriptiondiv.appendChild(successfuldiv);
+  console.log(subscriptiondiv);
+}
