@@ -140,7 +140,7 @@ padding-right: 20px;
         margin-top: 25px;
     }
   #buttons{
-    margin-top: 380px;
+    margin-top: 350px;
     font-size: 50px;
     margin-left: 700px;
     width: fit-content;
@@ -156,15 +156,15 @@ padding-right: 20px;
     outline: none; 
     border: none;
 }
-.button2{
-    margin-top: 730px;
+#button2{
+    margin-top: 630px;
     font-size: 50px;
     margin-left: 700px;
     width: fit-content;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.button2 button{
+#button2 button{
     background-color: orange;
     color: white;
     font-size: 30px;  
@@ -178,18 +178,18 @@ padding-right: 20px;
   color: orange;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1000px;
 }
 .service h1{
    text-align-last: center;
-   margin-top: 10px;
+   margin-top: auto;
 }
 .service-pic{
     display: flex;
     justify-content: center;
     transition: 2s;
     gap: 10px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .img1:hover{
      transform: scale(0.8);
@@ -212,13 +212,74 @@ padding-right: 20px;
 .subscribe{
     display: flex;
     justify-content: space-between;
-    gap: 70px;
     background-color: black;
    margin-left: 20px;
    margin-right: 20px;
     border-radius: 30px;
     margin-top: 200px;
+    padding-bottom: 30px;
+}
+.burger-image{
+    padding-left: 40px;
+    padding-top: 70px;
 }
 .form{
     color: white;
+}
+.email-form{
+    width: 100%; 
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.email-form input{
+     width: 100%;
+    border: none;
+    outline: none;
+}
+#subscription-button{
+    background-color: orange;
+    width: fit-content;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border: orange;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.button-set{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.form h2{
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.logo-contact i{
+    height: 92px;
+    width: 92px;
+}
+.logo-contact{
+    padding-left: 30px;
+}
+.footer{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contact-us{
+    padding-right: 30px;
 }
